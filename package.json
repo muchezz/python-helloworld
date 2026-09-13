@@ -1,0 +1,15 @@
+{
+  "name": "phase6b-nextjs-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": "22" },
+  "dependencies": {
+    "next": "15.1.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "scripts": {
+    "build": "next build",
+    "start": "next start"
+  }
+}
