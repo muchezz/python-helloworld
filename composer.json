@@ -6,10 +6,10 @@
         "php": "^8.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "symfony/framework-bundle": "7.2.*",
-        "symfony/runtime": "7.2.*",
-        "symfony/routing": "7.2.*",
-        "symfony/yaml": "7.2.*"
+        "symfony/framework-bundle": "^7.0",
+        "symfony/runtime": "^7.0",
+        "symfony/routing": "^7.0",
+        "symfony/yaml": "^7.0"
     },
     "replace": {
         "symfony/polyfill-ctype": "*",
