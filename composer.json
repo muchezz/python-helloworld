@@ -1,0 +1,10 @@
+{
+    "name": "njiracloud-fixtures/php-dockerfile",
+    "type": "project",
+    "description": "Phase 6B.1 real-acceptance fixture: narrow explicit-only plain PHP.",
+    "require": {
+        "php": "^8.3",
+        "laravel/framework": "^11.0"
+    },
+    "minimum-stability": "stable"
+}
