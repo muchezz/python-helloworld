@@ -7,7 +7,6 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/framework-bundle": "^7.0",
-        "symfony/runtime": "^7.0",
         "symfony/routing": "^7.0",
         "symfony/yaml": "^7.0"
     },
@@ -16,9 +15,6 @@
         "symfony/polyfill-iconv": "*"
     },
     "config": {
-        "allow-plugins": {
-            "symfony/runtime": true
-        },
         "sort-packages": true
     },
     "autoload": {
