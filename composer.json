@@ -1,0 +1,23 @@
+{
+    "name": "njiracloud-fixtures/laravel-symfony-ambiguous",
+    "type": "project",
+    "description": "Phase 6B.1 real-acceptance fixture: minimal Laravel app, no frontend asset pipeline.",
+    "require": {
+        "php": "^8.3",
+        "laravel/framework": "^11.0",
+        "symfony/framework-bundle": "7.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
