@@ -1,0 +1,9 @@
+{
+    "name": "njiracloud-fixtures/plain-php",
+    "type": "project",
+    "description": "Phase 6B.1 real-acceptance fixture: narrow explicit-only plain PHP.",
+    "require": {
+        "php": "^8.3"
+    },
+    "minimum-stability": "stable"
+}
