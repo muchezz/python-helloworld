@@ -1,0 +1,31 @@
+{
+    "name": "njiracloud-fixtures/symfony",
+    "type": "project",
+    "description": "Phase 6B.1 real-acceptance fixture: minimal Symfony micro-kernel app.",
+    "require": {
+        "php": "^8.3",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "symfony/framework-bundle": "7.2.*",
+        "symfony/runtime": "7.2.*",
+        "symfony/routing": "7.2.*",
+        "symfony/yaml": "7.2.*"
+    },
+    "replace": {
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-iconv": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
